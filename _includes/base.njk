@@ -1,0 +1,19 @@
+---
+title: Hamologist
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/hamologist-base.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <article>
+      <header>{{ header | safe}}</header>
+      <main>{{ content | safe }}</main>
+      <footer>{{ footer | safe }}</footer>
+    </article>
+  </body>
+</html>
